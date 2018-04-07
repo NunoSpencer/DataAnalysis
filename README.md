@@ -1,2 +1,2 @@
 # GameDataAnalysis
-Game Data Analysis in Python and Java
+Game Data Analysis in Python
