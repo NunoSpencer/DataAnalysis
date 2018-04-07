@@ -21,7 +21,7 @@
 #-----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-infile = open("C:\\Users\\Nuno\\OneDrive - Rhode Island College\\[programming_PROJECTS]\\DataLott\\Documentation\\WM_ALL_drawings_clean.txt", "r") #open the file
+infile = open("C:\\Users\\Nuno\\OneDrive - Rhode Island College\\[programming_PROJECTS]\\DataLott\\Documentation\\WM_ALL_drawings.txt", "r") #open the file
 
 dataFromFile = infile.read()                    #read data (lines) in file
 
