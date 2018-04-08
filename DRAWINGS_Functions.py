@@ -60,7 +60,7 @@ def HitsPerRange (inputFile):
                     counterR3 += 1
                 if ball in Range4:
                     counterR4 += 1
-    print ("Range [1-10] hits: " + str(counterR1))
+    print ("Range [01-10] hits: " + str(counterR1))
     print ("Range [11-20] hits: " + str(counterR2))
     print ("Range [21-30] hits: " + str(counterR3))      
     print ("Range [30-35] hits: " + str(counterR4))
@@ -222,8 +222,8 @@ def Poll(inputFile):
 
 inFile = "C:\\Users\\Nuno\\OneDrive - Rhode Island College\\[programming_PROJECTS]\\DataLott\\Documentation\\WM_ALL_drawings.txt"
 
-NumDrawings(inFile)
+#NumDrawings(inFile)
 
-HitsPerRange(inFile)
+#HitsPerRange(inFile)
 
 Poll(inFile)
