@@ -50,10 +50,10 @@ def HitsPerRange (inputFile):
     counterR3 = 0
     counterR4 = 0
     with open(inputFile, 'r') as inputFile:
-        for line in inputFile:             #"line" is each line in the file, i.e. each drawing
-            for ball in line.split():   #"ball" is each ball in a drawing
-                if ball in Range1:      #for each ball in a drawing, if it is Range1...
-                    counterR1 += 1      #count it for all ranges in all drawings...
+        for line in inputFile:              
+            for ball in line.split():       
+                if ball in Range1:          
+                    counterR1 += 1          
                 if ball in Range2:
                     counterR2 += 1
                 if ball in Range3:
