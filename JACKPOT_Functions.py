@@ -86,16 +86,6 @@ for i in DrawingsBeforeJackpot:
     print(i)
 
 
-#---------------------------------------------------------------------------------------------------------------------------------------------------
-# FUNCTION "PLOT_Consecutiveness_Of_JACKPOTS": 
-# each JACKPOT (X indep var) has a corresponding consecutivess (Y dep var)... 
-# We want to plot X in terms of Y...
-#
-# Do: note that we already have the lists for X and Y, i.e. 
-# "ListOfJAckpots" and "DrawingsBeforeJackpot" respectively
-#---------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 
 
 
