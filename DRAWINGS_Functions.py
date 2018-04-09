@@ -1,5 +1,5 @@
 # 
-#   DRAWINGS related functions:
+#   DRAWINGS functions:
 #
 #   1) function NumDrawings(f): counts all drawings from a file of drawings 
 #   2) function RANGES : sets ranges for a playing slip. A playing slip has 4 ranges: [1-10], [11-20], [21-30], [30-35]
@@ -19,7 +19,7 @@ def NumDrawings(inFile):
     print(drawings)                              
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------
-# 2) RANGES (formated as strings since the ball numbers are strings)
+# 2) RANGES 
 #-----------------------------------------------------------------------------------------------------------------------------------------------
 
 #defines ranges as ints... not what we want
