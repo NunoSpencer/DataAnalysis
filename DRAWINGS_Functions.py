@@ -28,7 +28,7 @@ def NumDrawings(inFile):
 # Range3 = list(range(21, 31))                #range [21 - 30]
 # Range4 = list(range(31, 36))                #range [30 - 35]
 
-#defines ranges a strings.. because each ball number is a string '01', '02', etc
+#defines ranges a strings 
 Range1 = list(format(i, '02d') for i in range(1, 11))
 Range2 = list(format(i, '02d') for i in range(11, 21))
 Range3 = list(format(i, '02d') for i in range(21, 31))
