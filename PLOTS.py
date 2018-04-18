@@ -1,13 +1,5 @@
 #   
-# 
-#   1) FUNCTION "CleanPoll" , cleans Poll results file by stripping non-numeric chars from each number poll 
-#   
-#   2) FUNCTION "plotR1": use clean poll data to plot x-> relation in r[01-10]
-#   3) FUNCTION "plotR2": use clean poll data to plot x-> relation in r[11-20]
-#   4) FUNCTION "plotR3": use clean poll data to plot x-> relation in r[21-30]
-#   5) FUNCTION "plotR4": use clean poll data to plot x-> relation in r[30-35]
-#   
-#   6) FUNCTION "PLOT_Consecutiveness_Of_JACKPOTS":
+# go
 #
 #################################################################################################################################################
 
@@ -15,7 +7,7 @@ import re
 import pandas as pd
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------
-# 1) #function CleanPoll(inF, outF)
+# ..
 #-----------------------------------------------------------------------------------------------------------------------------------------------
 
 def CleanPoll(inF, outF):
@@ -29,7 +21,7 @@ def CleanPoll(inF, outF):
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------
-# 2) FUNCTION "plotR1"
+# ..
 #-----------------------------------------------------------------------------------------------------------------------------------------------
 
 def plotR1(inF):
@@ -50,7 +42,7 @@ def plotR1(inF):
 
 
 #################################################################################################################################################
-# function calls
+# calls
 #################################################################################################################################################
 
 pollFile = "C:\\Users\\Nuno\\OneDrive - Rhode Island College\\[programming_PROJECTS]\\DataLott\\Documentation\\poll_all_255_drawings.txt"
