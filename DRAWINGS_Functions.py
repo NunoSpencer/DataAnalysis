@@ -1,10 +1,5 @@
 # 
-#   DRAWINGS functions:
-#
-#   1) function NumDrawings(f): counts all drawings from a file of drawings 
-#   2) function RANGES : sets ranges for a playing slip. A playing slip has 4 ranges: [1-10], [11-20], [21-30], [30-35]
-#   3) function HitsPerRange(f) : takes a file with drawings and determines # of hits for each range
-#   4) function Poll(f) : takes a file of drawings and determines hits for each ball number (35 ball numbers)
+#   //...work
 #
 #################################################################################################################################################
 
