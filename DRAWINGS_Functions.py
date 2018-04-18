@@ -61,7 +61,7 @@ def HitsPerRange (inputFile):
     print ("Range [30-35] hits: " + str(counterR4))
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------
-# 3) Poll(f) 
+# 3) Poll(f)  //definitely not "pythonic" ;(
 #-----------------------------------------------------------------------------------------------------------------------------------------------
             
 def Poll(inputFile):
@@ -215,7 +215,7 @@ def Poll(inputFile):
 # function calls
 #################################################################################################################################################
 
-inFile = "C:\\Users\\Nuno\\OneDrive - Rhode Island College\\[programming_PROJECTS]\\DataLott\\Documentation\\WM_ALL_drawings.txt"
+inFile = "A:\\fabulous\\drive\\file.txt"
 
 #NumDrawings(inFile)
 
