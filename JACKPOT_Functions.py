@@ -5,7 +5,7 @@
 
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------
-# FUNCTION "Parse_Raw_Data": cleaning
+# ...
 #---------------------------------------------------------------------------------------------------------------------------------------------------
 
 #read file
@@ -48,7 +48,7 @@ for x, y in zip(outFileLines_INT, outFileLines_INT[1:]):
     if(x > y):
         ListOfJackpots.append(int(x))
 
-print("All JACKPOT amounts:")
+print("All amounts:")
 for item in ListOfJackpots:
     print(item)
 
