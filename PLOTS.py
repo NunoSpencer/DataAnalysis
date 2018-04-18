@@ -45,8 +45,8 @@ def plotR1(inF):
 # calls
 #################################################################################################################################################
 
-pollFile = "C:\\Users\\Nuno\\OneDrive - Rhode Island College\\[programming_PROJECTS]\\DataLott\\Documentation\\poll_all_255_drawings.txt"
-cleanPollFile = "C:\\Users\\Nuno\\OneDrive - Rhode Island College\\[programming_PROJECTS]\\DataLott\\Documentation\\poll_all_255_drawings_clean.txt"
+pollFile = "a:\\file.txt"
+cleanPollFile = "a:\\cfile.txt"
 
 #CleanPoll(pollFile, cleanPollFile)
 
