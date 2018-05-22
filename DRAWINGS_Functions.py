@@ -16,12 +16,6 @@ def NumDrawings(inFile):
 #-----------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------
 
-#defines ranges as ints... not what we want
-# Range1 = list(range(1, 11))                 #range [01 - 10] 
-# Range2 = list(range(11, 21))                #range [11 - 20]
-# Range3 = list(range(21, 31))                #range [21 - 30]
-# Range4 = list(range(31, 36))                #range [30 - 35]
-
 #defines ranges a strings 
 Range1 = list(format(i, '02d') for i in range(1, 11))
 Range2 = list(format(i, '02d') for i in range(11, 21))
